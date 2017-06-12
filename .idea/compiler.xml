@@ -25,6 +25,7 @@
         <module name="server" />
         <module name="sso_browser_my" />
         <module name="sso_browser_test" />
+        <module name="WSSO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
