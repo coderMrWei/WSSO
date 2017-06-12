@@ -4,13 +4,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="server" />
+          <element id="module-output" name="wsso_server" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/server/target/com.merphy/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/wsso_server/target/com.merphy/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="server/web/Web" />
+      <element id="javaee-facet-resources" facet="wsso_server/web/Web" />
     </root>
   </artifact>
 </component>

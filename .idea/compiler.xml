@@ -23,10 +23,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="server" />
+        <module name="wsso_browser" />
+      </profile>
+      <profile default="false" name="Annotation profile for com.merphy Maven Webapp" enabled="true">
+        <sourceOutputDir name="../server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wsso_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="server" target="1.5" />
+      <module name="wsso_browser" target="1.5" />
+      <module name="wsso_server" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

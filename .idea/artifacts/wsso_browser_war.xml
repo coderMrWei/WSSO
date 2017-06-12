@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wsso_browser:war">
+    <output-path>$PROJECT_DIR$/wsso_browser/target</output-path>
+    <root id="archive" name="com.merphy.browser.war">
+      <element id="artifact" artifact-name="wsso_browser:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wsso_browser:war exploded">
+    <output-path>$PROJECT_DIR$/wsso_browser/target/com.merphy.browser</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wsso_browser" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/wsso_browser/target/com.merphy.browser/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wsso_browser/web/Web" />
+    </root>
+  </artifact>
+</component>
