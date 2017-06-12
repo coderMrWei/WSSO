@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/sso_browser_my" />
+    <file type="web" url="file://$PROJECT_DIR$/sso_browser_test" />
     <file type="web" url="file://$PROJECT_DIR$/wsso_browser" />
+    <file type="web" url="file://$PROJECT_DIR$/wsso_cross_domain" />
     <file type="web" url="file://$PROJECT_DIR$/wsso_server" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/server/pom.xml" />
-        <option value="$PROJECT_DIR$/wsso_browser/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -22,5 +25,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" />
 </project>

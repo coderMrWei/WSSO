@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wsso_cross_domain:war">
+    <output-path>$PROJECT_DIR$/wsso_cross_domain/target</output-path>
+    <root id="archive" name="wsso.war">
+      <element id="artifact" artifact-name="wsso_cross_domain:war exploded" />
+    </root>
+  </artifact>
+</component>

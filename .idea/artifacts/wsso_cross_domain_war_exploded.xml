@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wsso_cross_domain:war exploded">
+    <output-path>$PROJECT_DIR$/wsso_cross_domain/target/wsso</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wsso_cross_domain" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/wsso_cross_domain/target/wsso/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wsso_cross_domain/web/Web" />
+    </root>
+  </artifact>
+</component>

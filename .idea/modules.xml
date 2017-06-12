@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/WSSO.iml" filepath="$PROJECT_DIR$/.idea/WSSO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wsso_browser/wsso_browser.iml" filepath="$PROJECT_DIR$/wsso_browser/wsso_browser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wsso_server/wsso_server.iml" filepath="$PROJECT_DIR$/wsso_server/wsso_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso_browser_my/sso_browser_my.iml" filepath="$PROJECT_DIR$/sso_browser_my/sso_browser_my.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso_browser_test/sso_browser_test.iml" filepath="$PROJECT_DIR$/sso_browser_test/sso_browser_test.iml" />
     </modules>
   </component>
 </project>

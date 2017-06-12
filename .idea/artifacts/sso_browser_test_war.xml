@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sso_browser_test:war">
+    <output-path>$PROJECT_DIR$/sso_browser_test/target</output-path>
+    <root id="archive" name="sso_browser_test.war">
+      <element id="artifact" artifact-name="sso_browser_test:war exploded" />
+    </root>
+  </artifact>
+</component>
